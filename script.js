@@ -33,7 +33,7 @@ const questions = [
 const answer = [
   ["String", "Boolean", "Object", "Number"],
   ["=", ">", "<=", "==="],
-  ["Array", "Number", "Object", "String"],
+  ["Array", "Number", "Map", "String"],
   [
     "Donut On Moon",
     "Document Object Model",
