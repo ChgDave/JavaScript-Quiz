@@ -8,22 +8,21 @@
   </head>
   <body>
     <div class="header">
-      <p>View Highscores</p>
+      <p><button id="view-highscores">View Highscores</button></p>
       <p>Time: <span id="time"></span></p>
     </div>
     <div class="startPage">
-      <h1>Coding Quiz Challenge</h1>
+      <h1>JavaScript Coding Quiz Challenge</h1>
       <p>
-        Try to answer the following code related questions within the time
-        limit. Keep in mind that incorrect answers will penalize your score/time
-        by ten seconds.
+        Try to answer the following JavaScript code related questions within the time
+        limit (60s). For each correct answer you will gain 20 points while each incorrect answer will result in -10 points. In addition, each incorrect answer will also result in a penalty decreasing your time left by ten seconds. Good Luck!!
       </p>
       <button id="button-start">Start</button>
     </div>
     <div class="playerInputPage hidden">
       <h1>All done</h1>
-      <p>You final score is <span id="score"></span></p>
-      <p>Player Initial <input id="initial"></input><button id="button-initial">Submit</button></p>
+      <p class="display">You final score is <span id="score"></span></p>
+      <p class="display">Player Initial <input id="initial"></input><button id="button-initial">Submit</button></p>
     </div>
     <div class="questionPage hidden">
       <h1 id="question">Question</h1>
@@ -38,7 +37,8 @@
     <div class="highScorePage hidden">
       <h1>Highscores</h1>
       <ul id="scoreList"></ul>
-      <button id="clearScore">Clear Highscores</button>
+      <section><button id="back">Back</button>
+      <button id="clearScore">Clear Highscores</button></section>
     </div>
     <script src="script.js"></script>
   </body>
