@@ -1,0 +1,113 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header p {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.startPage {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.startPage p {
+  font-size: 20px;
+}
+
+#button-start {
+  font-size: 15px;
+  padding: 5px;
+  background-color: bisque;
+}
+
+.playerInputPage {
+  position: absolute;
+  top: 60px;
+  width: 50%;
+}
+
+#button-initial {
+  background-color: bisque;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.questionPage {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 60px;
+}
+
+.button {
+  margin: 5px;
+  padding: 5px;
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+}
+
+#answers {
+  list-style-type: none;
+  padding: 0px;
+}
+
+#answer-display {
+  /* position: absolute; */
+  width: 50%;
+  padding: 20px;
+  border-top: 2px solid gray;
+  font-size: 30px;
+  color: grey;
+}
+
+.highScorePage {
+  position: absolute;
+  top: 60px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#scoreList {
+  list-style-type: none;
+  width: 100%;
+  padding-left: 0px;
+}
+
+.scoresDisplay {
+  width: 100%;
+  background-color: aliceblue;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#clearScore {
+  background-color: bisque;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.hidden {
+  display: none;
+}

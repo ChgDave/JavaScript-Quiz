@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS Quiz</title>
+  </head>
+  <body>
+    <div class="header">
+      <p>View Highscores</p>
+      <p>Time: <span id="time"></span></p>
+    </div>
+    <div class="startPage">
+      <h1>Coding Quiz Challenge</h1>
+      <p>
+        Try to answer the following code related questions within the time
+        limit. Keep in mind that incorrect answers will penalize your score/time
+        by ten seconds.
+      </p>
+      <button id="button-start">Start</button>
+    </div>
+    <div class="playerInputPage hidden">
+      <h1>All done</h1>
+      <p>You final score is <span id="score"></span></p>
+      <p>Player Initial <input id="initial"></input><button id="button-initial">Submit</button></p>
+    </div>
+    <div class="questionPage hidden">
+      <h1 id="question">Question</h1>
+      <ul id="answers">
+        <li><button class="button" id="answer1" data-number="0"></button></li>
+        <li><button class="button" id="answer2" data-number="1"></button></li>
+        <li><button class="button" id="answer3" data-number="2"></button></li>
+        <li><button class="button" id="answer4" data-number="3"></button></li>
+      </ul>
+      <div id="answer-display" class="hidden">Result</div>
+    </div>
+    <div class="highScorePage hidden">
+      <h1>Highscores</h1>
+      <ul id="scoreList"></ul>
+      <button id="clearScore">Clear Highscores</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
