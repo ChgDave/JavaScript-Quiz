@@ -32,9 +32,10 @@ body {
 }
 
 #button-start {
+  color: white;
   font-size: 15px;
   padding: 5px;
-  background-color: bisque;
+  background-color: purple;
 }
 
 .playerInputPage {
@@ -43,10 +44,19 @@ body {
   width: 50%;
 }
 
+.display {
+  font-size: 20px;
+}
+
+#initial {
+  margin: 10px;
+}
 #button-initial {
-  background-color: bisque;
+  background-color: purple;
+  color: white;
   padding: 5px;
   font-size: 15px;
+  margin: 10px;
 }
 
 .questionPage {
@@ -102,10 +112,15 @@ body {
   font-size: 20px;
 }
 
+#view-highscores,
+#back,
 #clearScore {
-  background-color: bisque;
+  background-color: purple;
+  color: white;
   padding: 5px;
   font-size: 15px;
+  display: inline;
+  margin: 10px;
 }
 
 .hidden {
