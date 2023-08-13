@@ -27,6 +27,8 @@ const questions = [
   "Which one of the following is not an iterable in JavaScript?",
   "What does DOM mean in JavaScript?",
   "Which method below can store data in the browser that persist even after the browswer is closed? ",
+  "How many primative data types are there in JavaScript?",
+  "What data type does '4'+4 return in JavaScript?",
 ];
 const answer = [
   ["String", "Boolean", "Object", "Number"],
@@ -39,9 +41,11 @@ const answer = [
     "Document Object Manipulation",
   ],
   ["store()", "sessionStorage()", "icloud()", "localStorage()"],
+  ["7", "8", "4", "5"],
+  ["Number", "Boolean", "String", "NaN"],
 ];
 
-const correctAnswerIndex = [2, 0, 1, 1, 3];
+const correctAnswerIndex = [2, 0, 1, 1, 3, 0, 2];
 
 let questionNumber = 0;
 let score = 0;
